@@ -1,1 +1,1 @@
-groups $FT_USER | tr ' ' ',' | cat -e
+groups $FT_USER | tr ' ' ',' | tr "\\n" "\n" | cat -e
